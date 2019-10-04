@@ -5,6 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComandaBindingComponent } from './comanda-binding/comanda-binding.component';
 
+import {ReactiveForms} from '@angular/forms';
+
+import {FormGroup } from  '@angular/forms';
+
+import {FormBuilder } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
