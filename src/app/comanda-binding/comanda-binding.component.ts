@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'has-comanda-binding',
@@ -7,10 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComandaBindingComponent implements OnInit {
 
-  constructor() { }
+  constructor(public formBuilder :   FormBuilder) { }
  
    
   ngOnInit() {
+    this.FormGroup = this.formBuilder.group({
+
+      inChop : this.formBuilder.control(''),
+   
+      inPizzas : this.formBuilder.control(''),
+   
+      inRecheios : this.formBuilder.control(''),
+   
+      inPessoas : this.formBuilder.control('')
+   })
+
+
   }
 
 }
