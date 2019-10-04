@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ComandaBindingComponent } from './comanda-binding/comanda-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComandaBindingComponent
   ],
   imports: [
     BrowserModule,
