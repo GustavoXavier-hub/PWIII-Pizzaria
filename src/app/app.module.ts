@@ -7,9 +7,6 @@ import { ComandaBindingComponent } from './comanda-binding/comanda-binding.compo
 
 import {ReactiveForms} from '@angular/forms';
 
-import {FormGroup } from  '@angular/forms';
-
-import {FormBuilder } from '@angular/forms';
 
 
 @NgModule({
